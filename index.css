@@ -4,6 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #d6e2f0;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    color: #68778d;
+    padding: 1rem 3rem;
+}
+h2{
+    text-align: center;
+    padding: 0 1.3rem;
+    color: #1f3251;
+}
+
+/* styling the container  */
+
 .container {
     background-color: #ffffff;
     width: 350px;
@@ -15,30 +33,40 @@
     margin-bottom: 20px;
 }
 
+
+/* styling the QR component */
+
+
 .qr-code img {
     width: 100%;
     padding:1rem;
     border-radius: 25px;
 }
-
 .qr-code {
     text-align: center;
-   
 }
 
-body{
-    background-color: #d6e2f0;
+/* styling the attribution */
+
+.attribution {
+            font-size: 11px; 
+            text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
-p {
-    font-size: 15px;
-    text-align: center;
-    color: #68778d;
-    padding: 1rem 3rem;
-}
-
-h2{
-    text-align: center;
-    padding: 0 1.3rem;
-    color: #1f3251;
-}
+/* MEDIA QUERIES */
+@media screen and (max-width: 375px) {
+    .container {
+      margin-top: 2rem;
+      width: 320px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .container {
+      width: 300px;
+    }
+  }
+  
+  
