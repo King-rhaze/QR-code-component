@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](http://127.0.0.1:5500/index.html)
-- Live Site URL: [Add live site URL here](https://vercel.com/king-rhazes-projects/qr-code-component/3v34nAkWa1AwAvadXPvBpvjTesG9)
+- Solution URL: [Add solution URL here](https://github.com/King-rhaze/Qr-code-component.git)
+- Live Site URL: [Add live site URL here](https://qr-code-component-kappa-plum.vercel.app/)
 
 ## My process
 i firstly started by building the skeletal system using the HTML5 markup and started styling and editing with the css custom properties. The CSS grid helped me better understand how to effectively place objects where they should be. Then i played around with margins,paddings and colours.
